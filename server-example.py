@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
     # Command disabler. Simply pass a list of strings containing either CLPv4 commands to ignore, or custom commands to unload.
     #server.disableCommands(["gmsg"])
-    
+    print()
     # Reject mode. You can simply set this boolean to true and Cloudlink will terminate future client connections.
     # This can be toggled on-demand. Simply set to false to allow connections. Defaults to false.
     #server.rejectClientMode = True
@@ -134,5 +134,7 @@ if ON_HEROKU:
     port = int(os.environ.get('PORT', 17995))  # as per OP comments default is 17995
 else:
     port = 3000
+
+    print(port)
 
 server.run(host='0.0.0.0', port=port)
