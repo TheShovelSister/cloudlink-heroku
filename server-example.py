@@ -125,7 +125,6 @@ if __name__ == "__main__":
     # Reject mode. You can simply set this boolean to true and Cloudlink will terminate future client connections.
     # This can be toggled on-demand. Simply set to false to allow connections. Defaults to false.
     #server.rejectClientMode = True
-    
     # Start the server.
-    server.run()
+    import os from pml import app port = int(os.environ.get('PORT', 5000)) server.run(host='0.0.0.0', port=port)
     input("Press enter to exit.")
