@@ -125,15 +125,6 @@ if __name__ == "__main__":
     # This can be toggled on-demand. Simply set to false to allow connections. Defaults to false.
     #server.rejectClientMode = True
     # Start the server.
-    import os
-ON_HEROKU = os.environ.get('ON_HEROKU')
-
-if ON_HEROKU:
-    # get the heroku port
-    port = int(os.environ.get('PORT', 17995))  # as per OP comments default is 17995
-else:
-    port = 3000
-
-    print(port)
+    print(PORT)
 
 server.run(host='0.0.0.0', port=port)
