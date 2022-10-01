@@ -1,1 +1,1 @@
-web: python server-example.py
+web: python /cloudlink/cloudlink.py
