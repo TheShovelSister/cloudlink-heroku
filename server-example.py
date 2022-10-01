@@ -125,6 +125,6 @@ if __name__ == "__main__":
     # This can be toggled on-demand. Simply set to false to allow connections. Defaults to false.
     #server.rejectClientMode = True
     # Start the server.
-    print(PORT)
+    print(process.env.PORT)
 
 server.run(host='0.0.0.0', port=port)
