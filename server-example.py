@@ -125,6 +125,8 @@ if __name__ == "__main__":
     # This can be toggled on-demand. Simply set to false to allow connections. Defaults to false.
     #server.rejectClientMode = True
     # Start the server.
+import os
+
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     print(port)
