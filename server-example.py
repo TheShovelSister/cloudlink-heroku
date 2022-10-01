@@ -93,7 +93,7 @@ if __name__ == "__main__":
     server = cl.server(logs=True)
 
     # Set the server's Message-Of-The-Day.
-    server.setMOTD(True, "CloudLink 4 Test")
+    server.setMOTD(True, "ShovelGameServers")
 
     # Create demo callbacks. You can only initialize callbacks after you have initialized a cloudlink server object.
     dummy = demoCallbacksServer(server)
