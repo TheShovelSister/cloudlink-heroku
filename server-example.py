@@ -127,5 +127,5 @@ if __name__ == "__main__":
     #server.rejectClientMode = True
     
     # Start the server.
-    server.run(host="0.0.0.0", port = 3000)
+    server.run(host="0.0.0.0", port = $PORT)
     input("Press enter to exit.")
