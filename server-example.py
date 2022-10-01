@@ -136,4 +136,3 @@ else:
     port = 3000
 
 server.run(host='0.0.0.0', port=port)
-    input("Press enter to exit.")
