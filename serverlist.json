@@ -1,14 +1,10 @@
 {
 	"0": {
-		"id": "Localhost",
-		"url": "ws://127.0.0.1:3000/"
+		"id": "WorldSprites secure tunnel 1",
+		"url": "wss://cloudlink-heroku-production.up.railway.app/"
 	},
 	"1": {
-		"id": "CloudLink 4 Demo Server - Provided by Meower Media Co.",
+		"id": "WorldSprites secure tunnel 2",
 		"url": "wss://cl4-test.meower.org/"
-	},
-	"2": {
-		"id": "Tnix's Oceania Server",
-		"url": "wss://cloudlink.tnix.software/"
 	}
 }
